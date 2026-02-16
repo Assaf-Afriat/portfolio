@@ -39,3 +39,4 @@ This portfolio will be extended with:
 - UVM-based verification projects
 - Documentation & diagrams
 
+
