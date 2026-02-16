@@ -1,4 +1,4 @@
-# portfolio# Assaf Afriat – Digital Design & Verification Portfolio
+# Assaf Afriat – Digital Design & Verification Portfolio
 
 Welcome!  
 This repository contains my professional CVs and selected projects, focused on:
