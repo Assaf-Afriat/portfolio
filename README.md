@@ -33,6 +33,21 @@ This repository contains my professional CVs and selected projects, focused on:
 
 ---
 
+## 🚀 Featured Projects
+
+### 🧪 UVM Verification Project – Configurable Packet Modifier (CPM)
+- Full UVM-based verification environment (agents, RAL, coverage, scoreboard)
+- Live HTML demo available
+- Production-style project structure
+
+🔗 **Project Repository:**  
+https://github.com/Assaf-Afriat/uvm-cpm-packet-modifier
+
+🔗 **Live Demo:**  
+https://assaf-afriat.github.io/uvm-cpm-packet-modifier/deliverables/project_demo.html
+
+---
+
 ## 🚀 Next
 This portfolio will be extended with:
 - RTL design examples
