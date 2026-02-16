@@ -11,16 +11,16 @@ This repository contains my professional CVs and selected projects, focused on:
 ## 📄 Curriculum Vitae
 
 ### 🔹 Combined – Digital Design & Verification
-- HTML: `cv/Assaf Afriat - Digital Design & Verification Engineer.html`
-- PDF:  `cv/Assaf Afriat - Digital Design & Verification Engineer.pdf`
+- HTML: `cv/cv_combined.html`
+- PDF:  `cv/cv_combined.pdf`
 
 ### 🔹 Verification Engineer
-- HTML: `cv/Assaf Afriat - Verification Engineer.html`
-- PDF:  `cv/Assaf Afriat - Verification Engineer.pdf`
+- HTML: `cv_verification.html`
+- PDF:  `cv_verification.pdf`
 
 ### 🔹 Digital Design Engineer
-- HTML: `cv/Assaf Afriat - Digital Design Engineer.html`
-- PDF:  `cv/Assaf Afriat - Digital Design Engineer.pdf`
+- HTML: `cv_design.html`
+- PDF:  `cv_design.pdf`
 
 ---
 
