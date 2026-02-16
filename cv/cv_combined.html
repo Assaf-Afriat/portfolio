@@ -3,235 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assaf Afriat - Digital Design & Verification Engineer</title>
+    <title>Assaf Afriat - Digital Design Engineer</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        @page { size: letter; margin: 0; }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 11pt;
-            line-height: 1.4;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-size: 11.5pt;
+            line-height: 1.45;
             color: #2c3e50;
             background: #fff;
-            max-width: 8.5in;
+            width: 8.5in;
+            min-height: 11in;
             margin: 0 auto;
-            padding: 0.5in;
+            padding: 0.6in 0.65in;
         }
-        
-        /* Header */
-        .header {
-            text-align: center;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 12px;
-            margin-bottom: 16px;
-        }
-        
-        .name {
-            font-size: 24pt;
-            font-weight: 700;
-            color: #1a252f;
-            letter-spacing: 1px;
-            margin-bottom: 4px;
-        }
-        
-        .title {
-            font-size: 12pt;
-            color: #3498db;
-            font-weight: 500;
-            margin-bottom: 8px;
-        }
-        
-        .contact {
-            font-size: 10pt;
-            color: #555;
-        }
-        
-        .contact a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        
-        .contact span {
-            margin: 0 8px;
-            color: #bbb;
-        }
-        
-        /* Sections */
-        .section {
-            margin-bottom: 14px;
-        }
-        
+
+        .header { text-align: center; border-bottom: 2px solid #2c3e50; padding-bottom: 8px; margin-bottom: 10px; }
+        .name { font-size: 20pt; font-weight: 700; color: #1a252f; letter-spacing: 1px; }
+        .title { font-size: 10pt; color: #3498db; font-weight: 500; margin: 2px 0 4px 0; }
+        .contact { font-size: 9pt; color: #555; }
+        .contact a { color: #3498db; text-decoration: none; }
+        .contact span { margin: 0 6px; color: #bbb; }
+
+        .section { margin-bottom: 8px; }
         .section-title {
-            font-size: 11pt;
-            font-weight: 700;
-            color: #1a252f;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border-bottom: 1px solid #3498db;
-            padding-bottom: 4px;
-            margin-bottom: 10px;
+            font-size: 9pt; font-weight: 700; color: #1a252f; text-transform: uppercase;
+            letter-spacing: 1px; border-bottom: 1px solid #3498db; padding-bottom: 2px; margin-bottom: 6px;
         }
-        
-        /* Summary */
-        .summary {
-            font-size: 10.5pt;
-            color: #444;
-            text-align: justify;
-        }
-        
-        /* Skills */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: 140px 1fr;
-            gap: 6px 12px;
-            font-size: 10.5pt;
-        }
-        
-        .skill-category {
-            font-weight: 600;
-            color: #2c3e50;
-        }
-        
-        .skill-items {
-            color: #444;
-        }
-        
-        /* Education */
-        .edu-item {
-            margin-bottom: 10px;
-        }
-        
-        .edu-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-        }
-        
-        .edu-title {
-            font-weight: 700;
-            color: #2c3e50;
-            font-size: 10.5pt;
-        }
-        
-        .edu-date {
-            font-size: 10pt;
-            color: #666;
-        }
-        
-        .edu-school {
-            font-style: italic;
-            color: #555;
-            font-size: 10pt;
-        }
-        
-        .edu-detail {
-            font-size: 10pt;
-            color: #555;
-            margin-top: 2px;
-        }
-        
-        /* Projects */
-        .project {
-            margin-bottom: 12px;
-        }
-        
-        .project-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-        }
-        
-        .project-title {
-            font-weight: 700;
-            color: #2c3e50;
-            font-size: 10.5pt;
-        }
-        
-        .project-date {
-            font-size: 10pt;
-            color: #666;
-        }
-        
-        .project-desc {
-            font-size: 10pt;
-            color: #555;
-            margin: 2px 0 6px 0;
-        }
-        
-        .project ul {
-            margin-left: 16px;
-            font-size: 10pt;
-        }
-        
-        .project li {
-            margin-bottom: 3px;
-            color: #444;
-        }
-        
-        .tech-tag {
-            font-size: 9pt;
-            color: #3498db;
-            margin-top: 4px;
-        }
-        
-        /* Experience */
-        .exp-item {
-            margin-bottom: 10px;
-        }
-        
-        .exp-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-        }
-        
-        .exp-title {
-            font-weight: 700;
-            color: #2c3e50;
-            font-size: 10.5pt;
-        }
-        
-        .exp-date {
-            font-size: 10pt;
-            color: #666;
-        }
-        
-        .exp-company {
-            font-style: italic;
-            color: #555;
-            font-size: 10pt;
-        }
-        
-        .exp-item ul {
-            margin-left: 16px;
-            margin-top: 4px;
-            font-size: 10pt;
-        }
-        
-        .exp-item li {
-            margin-bottom: 2px;
-            color: #444;
-        }
-        
-        /* Footer */
-        .footer {
-            display: flex;
-            justify-content: space-between;
-            font-size: 10pt;
-            color: #555;
-            margin-top: 8px;
-            padding-top: 8px;
-            border-top: 1px solid #ddd;
-        }
-        
+
+        .summary { font-size: 9pt; color: #444; text-align: justify; }
+
+        .skills-grid { display: grid; grid-template-columns: 110px 1fr; gap: 3px 10px; font-size: 9pt; }
+        .skill-category { font-weight: 600; color: #2c3e50; }
+        .skill-items { color: #444; }
+
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; }
+
+        .edu-item { margin-bottom: 6px; }
+        .edu-header { display: flex; justify-content: space-between; }
+        .edu-title { font-weight: 700; color: #2c3e50; font-size: 9pt; }
+        .edu-date { font-size: 8pt; color: #666; }
+        .edu-school { font-style: italic; color: #555; font-size: 8pt; }
+
+        .project { margin-bottom: 8px; }
+        .project-header { display: flex; justify-content: space-between; }
+        .project-title { font-weight: 700; color: #2c3e50; font-size: 9pt; }
+        .project-date { font-size: 8pt; color: #666; }
+        .project ul { margin-left: 14px; font-size: 8.5pt; }
+        .project li { margin-bottom: 1px; color: #444; }
+        .tech-tag { font-size: 8pt; color: #3498db; margin-top: 2px; }
+
+        .exp-item { margin-bottom: 6px; }
+        .exp-header { display: flex; justify-content: space-between; }
+        .exp-title { font-weight: 700; color: #2c3e50; font-size: 9pt; }
+        .exp-date { font-size: 8pt; color: #666; }
+        .exp-company { font-style: italic; color: #555; font-size: 8pt; }
+        .exp-item ul { margin-left: 14px; margin-top: 2px; font-size: 8.5pt; }
+        .exp-item li { margin-bottom: 1px; color: #444; }
+
+        .footer { display: flex; justify-content: space-between; font-size: 8pt; color: #555; padding-top: 6px; border-top: 1px solid #ddd; }
+
         @media print {
-            body {
-                padding: 0;
-            }
+            body { padding: 0.35in 0.45in; }
         }
     </style>
 </head>
@@ -239,8 +74,8 @@
 
 <div class="header">
     <div class="name">ASSAF AFRIAT</div>
-    <div class="title">Digital Design & Verification Engineer</div>
-    <div class="contact">
+    <div class="title">Digital Design Engineer | RTL & Verification | SystemVerilog</div>
+     <div class="contact">
     <a href="https://linkedin.com/in/assaf-afriat" target="_blank">LinkedIn</a>
     <span>|</span>
     <a href="https://github.com/Assaf-Afriat" target="_blank">GitHub</a>
@@ -249,109 +84,121 @@
     <span>|</span>
     <a href="mailto:afriat.dev@gmail.com">afriat.dev@gmail.com</a>
 </div>
-
 </div>
 
 <div class="section">
-    <div class="section-title">Professional Summary</div>
+    <div class="section-title">Summary</div>
     <div class="summary">
-        Digital Design and Verification Engineer with hands-on experience in RTL design, UVM verification, and FPGA implementation. Recently completed Google's Chip Design & Verification program with expertise in SystemVerilog, UVM methodology, and clock domain crossing. Background in control systems engineering brings strong debugging skills, systematic problem-solving, and experience delivering complex projects on schedule.
+        Digital Design Engineer with hands-on experience in SystemVerilog RTL design,
+        multi-clock domain architectures, and FPGA-based SoC implementation.
+        Strong background in verification using UVM and SVA, enabling robust,
+        verification-aware design and early detection of architectural corner cases.
+        Prior experience in control systems engineering contributes a disciplined,
+        timing-conscious, and failure-oriented debugging mindset.
     </div>
 </div>
 
 <div class="section">
     <div class="section-title">Technical Skills</div>
     <div class="skills-grid">
-        <div class="skill-category">HDL & Verification</div>
-        <div class="skill-items">SystemVerilog, Verilog, UVM, SVA, Constrained Random Verification, Functional Coverage, RAL</div>
-        
-        <div class="skill-category">Design Expertise</div>
-        <div class="skill-items">RTL Design, FSM, Clock Domain Crossing, Async FIFOs, Pipelining, UART Protocol, DMA</div>
-        
+        <div class="skill-category">RTL Design</div>
+        <div class="skill-items">
+            SystemVerilog, Verilog, FSM Design, Clock Domain Crossing,
+            Async FIFOs, Pipelining, UART, DMA Engines
+        </div>
+
+        <div class="skill-category">Verification</div>
+        <div class="skill-items">
+            UVM, SVA, Constrained Random Verification,
+            Functional Coverage, RAL
+        </div>
+
         <div class="skill-category">Tools</div>
-        <div class="skill-items">QuestaSim, Xilinx Vivado, Cadence Virtuoso, Python, Git</div>
-        
-        <div class="skill-category">Programming</div>
-        <div class="skill-items">Python, C, Assembly</div>
+        <div class="skill-items">
+            Xilinx Vivado, QuestaSim, Cadence Virtuoso,
+            Python, Git
+        </div>
     </div>
 </div>
 
 <div class="section">
-    <div class="section-title">Education & Training</div>
-    
-    <div class="edu-item">
-        <div class="edu-header">
-            <div class="edu-title">Chip Design & Verification Certificate</div>
-            <div class="edu-date">2026</div>
+    <div class="section-title">Education</div>
+    <div class="two-col">
+        <div class="edu-item">
+            <div class="edu-header">
+                <div class="edu-title">Chip Design & Verification Certificate</div>
+                <div class="edu-date">2026</div>
+            </div>
+            <div class="edu-school">Google & Reichman Tech School</div>
         </div>
-        <div class="edu-school">Google & Reichman Tech School</div>
-        <div class="edu-detail">Intensive program covering RTL design, UVM verification, and FPGA implementation.</div>
-    </div>
-    
-    <div class="edu-item">
-        <div class="edu-header">
-            <div class="edu-title">B.Sc. Electrical and Computer Engineering</div>
-            <div class="edu-date">2016 - 2021</div>
+        <div class="edu-item">
+            <div class="edu-header">
+                <div class="edu-title">B.Sc. Electrical & Computer Engineering</div>
+                <div class="edu-date">2016 – 2021</div>
+            </div>
+            <div class="edu-school">Ben-Gurion University | VLSI Specialization</div>
         </div>
-        <div class="edu-school">Ben-Gurion University of the Negev</div>
-        <div class="edu-detail">Specialization: Telecommunication and VLSI</div>
     </div>
 </div>
 
 <div class="section">
-    <div class="section-title">Capstone Projects</div>
-    
+    <div class="section-title">Projects</div>
+
     <div class="project">
         <div class="project-header">
-            <div class="project-title">UART Image Processing SoC - RTL Design</div>
+            <div class="project-title">UART Image Processing SoC – RTL Design</div>
             <div class="project-date">2026</div>
         </div>
-        <div class="project-desc">Multi-clock domain UART system for real-time 256x256 image transfer between PC and FPGA.</div>
         <ul>
-            <li>Architected full UART stack (PHY, MAC, Classifier) at 5.5 Mbaud with 32x oversampling on 176 MHz clock</li>
-            <li>Implemented CDC between 176/100 MHz domains using 2-FF/3-FF synchronizers and async FIFOs</li>
-            <li>Designed burst DMA engine for streaming RGB images to triple-channel SRAM at full wire speed</li>
-            <li>Achieved pixel-perfect image round-trip with zero data loss on Xilinx FPGA</li>
+            <li>Designed complete UART-based image processing SoC including PHY, MAC,
+                DMA engine, and SRAM-backed frame buffer</li>
+            <li>Implemented robust CDC between 176 MHz UART and 100 MHz system domains
+                using synchronizers and async FIFOs with gray-code pointers</li>
+            <li>Developed burst DMA engine enabling reliable streaming of 256×256 RGB images
+                with pixel-perfect end-to-end integrity</li>
+            <li>Debugged timing and CDC issues including glitch propagation,
+                handshake alignment, and SRAM pipeline latency</li>
         </ul>
-        <div class="tech-tag">SystemVerilog, Xilinx Vivado, SRAM, CDC, Python</div>
+        <div class="tech-tag">Technologies: SystemVerilog, Xilinx Vivado, SRAM, CDC, Python</div>
     </div>
-    
+
     <div class="project">
         <div class="project-header">
-            <div class="project-title">CPM IP Verification Environment - UVM</div>
+            <div class="project-title">CPM Packet Modifier – Design-Aware Verification</div>
             <div class="project-date">2026</div>
         </div>
-        <div class="project-desc">Complete UVM verification for configurable packet modifier IP with 4 transformation modes.</div>
         <ul>
-            <li>Developed self-checking scoreboard with reference model achieving 100% match rate</li>
-            <li>Implemented RAL with adapter, predictor, and automated reset sequence verification</li>
-            <li>Created SVA assertions for protocol compliance; identified 3 critical RTL bugs</li>
-            <li>Achieved 100% functional coverage using covergroups with mode × opcode cross</li>
+            <li>Analyzed RTL microarchitecture including pipelined data path,
+                control logic, and mode-dependent latency behavior</li>
+            <li>Built UVM-based verification environment to validate architectural assumptions
+                and uncover three critical RTL bugs related to timing and backpressure</li>
+            <li>Developed SVA assertions for protocol compliance and output stability,
+                achieving full functional coverage</li>
         </ul>
-        <div class="tech-tag">SystemVerilog, UVM, QuestaSim, SVA, RAL, Python</div>
+        <div class="tech-tag">Technologies: SystemVerilog, UVM, SVA, QuestaSim</div>
     </div>
 </div>
 
 <div class="section">
-    <div class="section-title">Employment Experience</div>
-    
+    <div class="section-title">Experience</div>
     <div class="exp-item">
         <div class="exp-header">
             <div class="exp-title">Control Engineer / Project Manager</div>
-            <div class="exp-date">2022 - Present</div>
+            <div class="exp-date">2022 – Present</div>
         </div>
         <div class="exp-company">Contel</div>
         <ul>
-            <li>Led system design and project delivery for industrial automation solutions</li>
-            <li>Developed PLC applications using OOP principles, state machines, and modular code structures</li>
-            <li>Drove process improvements, optimizing workflows and reducing costs</li>
+            <li>Designed deterministic state-machine-based control logic for real-time systems
+                with strict timing and reliability requirements</li>
+            <li>Led end-to-end project delivery, emphasizing structured debugging,
+                failure-mode analysis, and system robustness</li>
         </ul>
     </div>
 </div>
 
 <div class="footer">
-    <div><strong>Military:</strong> Engineer Corps, IDF (2009-2012)</div>
-    <div><strong>Languages:</strong> Hebrew (Native), English (Native Level)</div>
+    <div><strong>Military:</strong> Engineer Corps, IDF (2009–2012)</div>
+    <div><strong>Languages:</strong> Hebrew (Native) | English (Native)</div>
 </div>
 
 </body>
