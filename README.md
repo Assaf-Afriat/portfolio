@@ -48,10 +48,18 @@ https://assaf-afriat.github.io/uvm-cpm-packet-modifier/deliverables/project_demo
 
 ---
 
-## 🚀 Next
-This portfolio will be extended with:
-- RTL design examples
-- UVM-based verification projects
-- Documentation & diagrams
+### 🔧 RTL Design Project – UART Image Processing SoC
+- Multi-clock SystemVerilog SoC for real-time 256x256 RGB image transfer at 5.5 Mbaud
+- Full protocol stack: PHY (32x oversampling), MAC (frame-safe), Classifier, CDC synchronizers
+- DMA-style burst engine with dedicated RX/TX sequencers and color-separated SRAM
+- 27 RTL modules across two clock domains (176 MHz / 100 MHz), 6 register files
+- Synthesized and hardware-verified on Digilent Nexys A7-100T (Artix-7)
 
+🔗 **Project Repository:**  
+https://github.com/Assaf-Afriat/uart-image-processing-soc
+
+🔗 **Live Demo:**  
+https://assaf-afriat.github.io/uart-image-processing-soc/docs/project_demo.html
+
+---
 
