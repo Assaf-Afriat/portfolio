@@ -63,3 +63,19 @@ https://assaf-afriat.github.io/uart-image-processing-soc/docs/project_demo.html
 
 ---
 
+### 🧪 UVM Verification Project – ALU with Variable Latency & FIFO
+- Complete UVM verification environment for an 8-bit ALU with output FIFO and backpressure
+- 8 ALU operations (ADD, SUB, MUL, AND, XOR, SLL, SRL, DIV) with variable latency (2-8 cycles)
+- 11 SVA assertions (protocol, reset, latency, FIFO integrity)
+- 8 covergroups with cross coverage, 10 callbacks (driver, monitor, scoreboard)
+- 6 test types: sanity, stress, coverage-driven, regression, callback demo, full regression
+- Valid/Ready handshaking with random backpressure testing
+
+🔗 **Project Repository:**  
+https://github.com/Assaf-Afriat/uvm-alu-project
+
+🔗 **Live Demo:**  
+https://assaf-afriat.github.io/uvm-alu-project/docs/project_demo.html
+
+---
+
