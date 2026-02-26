@@ -11,16 +11,16 @@ This repository contains my professional CVs and selected projects, focused on:
 ## 📄 Curriculum Vitae
 
 ### 🔹 Combined – Digital Design & Verification
-- HTML: `cv/cv_combined.html`
-- PDF:  `cv/cv_combined.pdf`
+- HTML: [cv/cv_combined.html](cv/cv_combined.html)
+- PDF:  [cv/cv_combined.pdf](cv/cv_combined.pdf)
 
 ### 🔹 Verification Engineer
-- HTML: `cv_verification.html`
-- PDF:  `cv_verification.pdf`
+- HTML: [cv/cv_verification.html](cv/cv_verification.html)
+- PDF:  [cv/cv_verification.pdf](cv/cv_verification.pdf)
 
 ### 🔹 Digital Design Engineer
-- HTML: `cv_design.html`
-- PDF:  `cv_design.pdf`
+- HTML: [cv/cv_design.html](cv/cv_design.html)
+- PDF:  [cv/cv_design.pdf](cv/cv_design.pdf)
 
 ---
 
@@ -41,10 +41,10 @@ This repository contains my professional CVs and selected projects, focused on:
 - Production-style project structure
 
 🔗 **Project Repository:**  
-https://github.com/Assaf-Afriat/uvm-cpm-packet-modifier
+[github.com/Assaf-Afriat/uvm-cpm-packet-modifier](https://github.com/Assaf-Afriat/uvm-cpm-packet-modifier)
 
 🔗 **Live Demo:**  
-https://assaf-afriat.github.io/uvm-cpm-packet-modifier/deliverables/project_demo.html
+[assaf-afriat.github.io/uvm-cpm-packet-modifier](https://assaf-afriat.github.io/uvm-cpm-packet-modifier/deliverables/project_demo.html)
 
 ---
 
@@ -56,10 +56,10 @@ https://assaf-afriat.github.io/uvm-cpm-packet-modifier/deliverables/project_demo
 - Synthesized and hardware-verified on Digilent Nexys A7-100T (Artix-7)
 
 🔗 **Project Repository:**  
-https://github.com/Assaf-Afriat/uart-image-processing-soc
+[github.com/Assaf-Afriat/uart-image-processing-soc](https://github.com/Assaf-Afriat/uart-image-processing-soc)
 
 🔗 **Live Demo:**  
-https://assaf-afriat.github.io/uart-image-processing-soc/docs/project_demo.html
+[assaf-afriat.github.io/uart-image-processing-soc](https://assaf-afriat.github.io/uart-image-processing-soc/docs/project_demo.html)
 
 ---
 
@@ -72,10 +72,10 @@ https://assaf-afriat.github.io/uart-image-processing-soc/docs/project_demo.html
 - Valid/Ready handshaking with random backpressure testing
 
 🔗 **Project Repository:**  
-https://github.com/Assaf-Afriat/uvm-alu-project
+[github.com/Assaf-Afriat/uvm-alu-project](https://github.com/Assaf-Afriat/uvm-alu-project)
 
 🔗 **Live Demo:**  
-https://assaf-afriat.github.io/uvm-alu-project/docs/project_demo.html
+[assaf-afriat.github.io/uvm-alu-project](https://assaf-afriat.github.io/uvm-alu-project/docs/project_demo.html)
 
 ---
 
