@@ -36,7 +36,7 @@ Repository:
 [uvm-cpm-packet-modifier](https://github.com/Assaf-Afriat/uvm-cpm-packet-modifier)
 
 Live Demo:  
-[assaf-afriat.github.io/uvm-cpm-packet-modifier](https://assaf-afriat.github.io/uvm-cpm-packet-modifier)
+[assaf-afriat.github.io/uvm-cpm-packet-modifier](https://assaf-afriat.github.com/uvm-cpm-packet-modifier)
 
 ### 2) RTL Design Project – UART Image Processing SoC
 
@@ -53,7 +53,7 @@ Repository:
 [uart-image-processing-soc](https://github.com/Assaf-Afriat/uart-image-processing-soc)
 
 Live Demo:  
-[assaf-afriat.github.io/uart-image-processing-soc](https://assaf-afriat.github.io/uart-image-processing-soc)
+[assaf-afriat.github.io/uart-image-processing-soc](https://assaf-afriat.github.com/uart-image-processing-soc)
 
 ### 3) UVM Verification Project – Round-Robin Arbiter
 
@@ -108,12 +108,12 @@ An independent UVM-based verification project for an 8-bit ALU with variable lat
 ## Curriculum Vitae
 
 ### Verification Engineer
-- [HTML CV](https://assaf-afriat.github.io/cv/cv_verification.html)
-- [PDF CV](https://assaf-afriat.github.io/cv/cv_verification.pdf)
+- [HTML CV](https://assaf-afriat.github.com/cv/cv_verification.html)
+- [PDF CV](https://assaf-afriat.github.com/cv/cv_verification.pdf)
 
 ### Digital Design Engineer
-- [HTML CV](https://assaf-afriat.github.io/cv/cv_design.html)
-- [PDF CV](https://assaf-afriat.github.io/cv/cv_design.pdf)
+- [HTML CV](https://assaf-afriat.github.com/cv/cv_design.html)
+- [PDF CV](https://assaf-afriat.github.com/cv/cv_design.pdf)
 
 ## Contact
 
