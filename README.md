@@ -36,7 +36,7 @@ Repository:
 [uvm-cpm-packet-modifier](https://github.com/Assaf-Afriat/uvm-cpm-packet-modifier)
 
 Live Demo:  
-[assaf-afriat.github.io/uvm-cpm-packet-modifier](https://assaf-afriat.github.com/uvm-cpm-packet-modifier)
+[assaf-afriat.github.io/uvm-cpm-packet-modifier](https://assaf-afriat.github.io/uvm-cpm-packet-modifier)
 
 ### 2) RTL Design Project – UART Image Processing SoC
 
